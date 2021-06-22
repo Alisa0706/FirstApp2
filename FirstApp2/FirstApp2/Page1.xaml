@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FirstApp2.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <Label Text="Вход в мой профиль" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            <Entry x:Name="EntryName" Placeholder="Имя пользователя"></Entry>
+            <Entry x:Name="EntryPassword" IsPassword ="True" Placeholder="Пароль"></Entry>
+            <Button Clicked="button4_Clicked" x:Name="button4" Text="Войти"></Button>
+            <Button Clicked="button3_Clicked" x:Name="button3" Text="Регистрация"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
